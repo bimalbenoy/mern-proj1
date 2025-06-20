@@ -23,7 +23,7 @@ import {
   FormLabel
 } from '@chakra-ui/react';
 import { EditIcon, DeleteIcon } from '@chakra-ui/icons';
-import { useProductStore } from '../store/Product';
+import { useProductStore } from '../store/product';
 
 const ProductCard = ({ product }) => {
   const bgColor = useColorModeValue('white', 'gray.800');
