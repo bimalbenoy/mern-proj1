@@ -10,7 +10,7 @@ import {
   useColorModeValue,
   useToast
 } from '@chakra-ui/react';
-import { useProductStore } from '../store/Product';
+import { useProductStore } from '../store/product';
 
 const CreatePage = () => {
   const toast= useToast();
